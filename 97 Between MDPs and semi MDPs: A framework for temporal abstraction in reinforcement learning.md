@@ -12,3 +12,5 @@ it terminates in $s_{t+k}$, at which time a new option is selected, according to
 even if a policy is Markov and all of the options it selects are Markov, the corresponding flat policy is unlikely to be
 Markov if any of the options are multi-step (temporally extended). The action selected by the flat policy in state sτ depends not just on sτ but on the option being followed at that time, and this depends stochastically on the entire history htτ since the policy was initiated at time t. By analogy to semi-Markov options, we call policies that depend on histories in this way semi-Markov policies. Note that semi-Markov policies are more specialized than nonstationary policies. Whereas nonstationary policies may depend arbitrarily on all preceding events, semi-Markov policies may depend only on events back to some particular
 time. 
+
+__Temporal abstraction provides the flexibility to greatly reduce computational complexity, but can also have the opposite effect if used indiscriminately__
