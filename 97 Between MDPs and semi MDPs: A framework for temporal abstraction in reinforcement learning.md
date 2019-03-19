@@ -14,3 +14,9 @@ Markov if any of the options are multi-step (temporally extended). The action se
 time. 
 
 __Temporal abstraction provides the flexibility to greatly reduce computational complexity, but can also have the opposite effect if used indiscriminately__
+
+It is natural to think of options as achieving subgoals of some kind, and to adapt each option’s policy to better achieve its subgoal.
+
+We assume the subgoals are given and do not address the larger question of the source of the subgoals
+
+Representing knowledge flexibly at multiple levels of temporal abstraction has the potential to greatly speed planning and learning on large problems. 
