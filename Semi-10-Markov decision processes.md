@@ -1,0 +1,1 @@
+Semi-Markov decision processes (SMDPs) are used in modeling stochastic control problems arrising in Markovian dynamic systems where the sojourn time in each state is a general continuous random variable.
