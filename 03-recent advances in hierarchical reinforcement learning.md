@@ -15,3 +15,7 @@ Like the options formalism, HAMs exploit the theory of SMDPs, but the emphasis i
 Varaiya (1978) who considered a two-layer structure in which the lower level controls the plant via one of a set of pre-de®ned regulators. The higher level, the supervisor, monitors the behavior of the plant and intervenes when its state enters a set of boundary states. Intervention takes the form of switching to a new low-level regulator.
 
 one can think of a __HAM as a method for delineating a possibly drastically restricted set of policies for M. This restriction is determined by the prior knowledge that the HAM's designer, or programmer, has about what might be good ways to control M__.
+
+_Hierarchical memory_\
+Finite memory structures can be defeated by long sequences of mostly irrelevant observations and actions that conceal a critical past observation
+
