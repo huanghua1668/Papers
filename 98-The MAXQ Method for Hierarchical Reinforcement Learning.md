@@ -3,3 +3,6 @@ Hierarchical approaches to reinforcement learning (RL) problems promise many __b
 relies on a programmer to design a hierarchy of abstract machines that constrains the possible policies to be considered.
 
 relies on a programmer-designed hierarchy. In this hierarchy, each subtask is defined in terms of goal states or termination conditions. Each subtask in the hierarchy corresponds to its ownMarkov Decision Problem (MDP), and the methods seek to compute a policy that is locally optimal for each subtask.
+
+__Taxi example__\
+This task has a simple hierarchical structure in which there are three sub-tasks: Get the passenger, Refuel the taxi, and Deliver the passenger. Each subtask involves navigating to one of the five locations and then performing a Pickup, Fillup, or Putdown action. While the taxi is navigating to a location, only that location is relevant. We would like to capture this hierarchical structure.
