@@ -60,6 +60,9 @@ How do we bring to bear rich prior knowledge to learn new tasks and solve new pr
 
 __Autonomous driving__. Perfect autonomous driving requires intuitive psychology. Beyond detecting and avoiding pedestrians, autonomous cars could more accurately predict pedestrian behavior by inferring mental states, including their beliefs (e.g., Do they think it is safe to cross the street? Are they paying attention?) and desires (e.g., Where do they want to go? Do they want to cross? Are they retrieving a ball lost in the street?). Similarly, other drivers on the road have similarly complex mental states underlying their behavior (e.g., Does he or she want to change lanes? Pass another car? Is he or she swerving to avoid a hidden hazard? Is he or she distracted?). This type of psychological reasoning, along with other types of model-based causal and physical reasoning, are likely to be especially valuable in challenging and novel driving circumstances for which there are few relevant training data (e.g., navigating unusual construction zones, natural disasters).
 
+It has been argued that the process of human decision making does not typically involve rational utility maximization (e.g., Hertwig & Herzog 2009). This, in turn, influences how we expect other people to
+make decisions 
+
 __Comments__\
 we believe that humanlevel intelligence can be achieved only through open-ended learning, that is, the cumulative learning of progressively more complex skills and knowledge, driven by intrinsic motivations, which are motivations related to the acquisition of knowledge and skills rather than material resources 
 
@@ -68,3 +71,55 @@ Human-like learning and decision making surely do depend upon rich internal mode
 two domains Lake and colleagues focus most upon – physics and theory of mind – are amenable to such an approach, in that these happen to be fields for which mature scientific disciplines exist. This provides unusually rich support for hand design of cognitive models. However, it is not clear that such hand design will be feasible in other more idiosyncratic domains where comparable scaffolding is unavailable.
 
 an agent’s models should be calibrated to its tasks. This is essential for models to scale to real-world complexity, because it is usually too expensive, or even impossible, for a system to acquire and work with extremely fine-grained models of the world 
+
+children’s social environments may be shaping the development of these core abilities, “reprogramming” and updating their developmental start-up software.
+
+Humans’ intuitive psychology and their corresponding ability to reason about others’ mental states is just one element of why humans may be outperforming computers
+
+ DL nets are not normally trained with anything like the experiences had by the developing child, whose learning is based on broad, multisensory experience and is cumulative, with new motor and cognitive skills building on old 
+ 
+forms of __imitation and readiness to learn from teachers__ suggest means by which humans can __accumulate and exploit an “informational commonwealth” __
+
+ human cognition relies heavily on structured relational representations. analogical comparison processes are central to human cognition; and (2) intuitive physical knowledge is captured by __qualitative representations, rather than quantitative simulations.__ we argue that analogy provides exactly the sort of rapid learning and reasoning that human cognition exhibits. Analogy provides a means of transferring prior knowledge.  second major claim is that qualitative representations – not quantitative simulations – provide much of the material of our conceptual structure, especially for reasoning about causality
+ 
+__Qualitative representations provide symbolic, relational representations of continuous properties and an account of causality organized around processes of change. They enable commonsense inferences to be made with little information, using qualitative mathematics. Decades of successful models have been built for many aspects of intuitive physics, and such models have also been used to ground scientific and engineering reasoning__ rapid computation over structured representations is a major feature of human cognition. 
+ 
+biological evolution, by trial and error, figured out a set of inductive biases that work well for learning in this world, and the human brain’s efficiency and robustness derive from these biases. 
+
+__Lake et al. propose that people rely on “start-up software,” “causal models,” and “intuitive theories” built using compositional representations to learn new tasks more efficiently than some deep neural network models.__
+
+__explicit compositional approach__ of Lake et al. is limited because it downplays the often complex interactions between the multitude of contextual variables in the task settings in which the representation is used. Avoiding a commitment to symbolic compositionality increases one’s flexibility to respond to sometimes subtle influences of context and allows for the possibility of more robust learning across contexts. 
+
+human learning, which builds cumulatively on prior learning. Humans learn complex skills in a domain after previously learning simpler ones, gradually building structured knowledge as they learn. 
+
+an explanation of the tactic from a teacher
+
+neural networks can exhibit rulelike behavior without building in explicit rules, we believe that they may not require a compositional, explicitly symbolic form of reasoning to produce human-like behavior
+
+__meta-tasks that are extremely common as a result of sociocultural conventions__, such as “__follow written instructions__,” “incorporate comments from a teacher,” and “give a convincing explanation of your behavior.”
+
+The brain seamlessly merges bottom-up discriminative and topdown generative processes into a rapidly converging process of inference that combines the advantages of both: the rapidity of discriminative inference and the flexibility and precision of generative inference 
+
+neural models essential to these competencies are implicit and permit more fluent and nuanced behavior than explicit models. 
+
+Animals acquire physical competence through interaction with their environments (both phylogenetic through evolution and ontogenetic through development)
+
+The problem hindering AI systems from acquiring psychological competence is that most artificial agents do not have interests, desires, goals, fears, and so on that they can project onto others or use as a basis for mental simulation. 
+
+Explicit models are the sort scientists construct, generally in terms of symbolic (lexical-level) variables; we expect to be able to understand explicit models conceptually, to communicate them in language, and to reason about them discursively (including mathematically)
+
+Implicit models are the sort that neural networks construct, generally in terms of large numbers of sub-symbolic variables, densely interrelated. Implicit models often allow an approximate emergent symbolic description, but such descriptions typically capture only the largest effects and interrelationships implicit in the sub-symbolic model. Therefore, they may lack the subtlety and context sensitivity of implicit models, which is why it is difficult, if not impossible, to capture expert behavior in explicit rules 
+ 
+learning processes are incremental, online, and progressive. __Human child development involves a progressive increase of complexity in a curriculum of learning where skills are explored, acquired, and built on each other, through particular ordering and timing__. Finally, human learning happens in the physical world, and through bodily and physical experimentation, under severe constraints on energy, time, and computational resources.
+
+Human learning is fast and effective, in part, because it builds on cognitive and neural systems by which we understand the world throughout our lives. 
+
+Social learning speeds up the learning process and – in combination with language – is a gateway to abstract and unobservable information. Social learning also facilitates the accumulation of knowledge across generations, helping people and artificial intelligences learn things that no individual could learn in a lifetime
+
+Similar to a human explorer, an artificial intelligence (AI) learning to play video games like Frostbite should take advantage of the rich knowledge available from other people. Learning from other people helps you learn with fewer data. 
+
+ Language, however, is uniquely powerful in its ability to convey information that is abstract or difficult to observe, or information that otherwise does not have a way of being safely acquired such as learning that certain plants are poisonous or how to avoid frostbite
+ 
+Learners who were told about the abstract structure of the game learned to play the game more quickly and achieved higher overall scores (M = 2440) than the group without written instructions (M = 1333) 
+
+language – and particularly its flexibility to refer to abstract concepts – is key to faithful transmission of knowledge, between individuals and through generations.
