@@ -1,0 +1,16 @@
+By analyzing the human-driver lane change data, we propose a two-segment lane change model that mimics the human-driver. 
+
+develop an intuitive method to select the suitable lane change behavior, for a given scenario, using active (accelerate/decelerate) and passive (wait) information derived from the distance and related velocity (dx/dv) graph. Additionally, we also identify the most desirable and safe conditions for doing lane change based on the human driver preference data. 
+
+By analyzing the human’s behaviors from the experimental data, we realized that the human model was not a single stage but rather a two continuoussegment stage. Our work develops a lane change model based on a two-segment (behavior and motion) model, which accounts for lateral and longitudinal speed/spatial constraints that match the human drivers. A method to select the suitable behavior for longitudinal movement based on the dx/dv graph segmentation is proposed. This graph provides the safety distance dx and safety speed dv for doing the lane change based on the human-driver lane change patterns. At the “lateral segment,” the ego vehicle starts its lateral motion and enters into the destination lane. An optimization function is proposed which integrates both lateral and longitudinal trajectories in the same function. 
+
+when the driver receives the request for changing the lane from the on-board test engineer, the driver adjusts the longitudinal speed (acceleration/deceleration) and finds a safe space and time instant to initiate the steering to perform the lane change
+
+observed that the humandriver lane change behavior model does not begin at the instant of the steering wheel turn, but rather a few seconds before the steering wheel turn. 
+
+a two-segment behavior/motion lane change model is proposed as shown in Fig. 2(b). In segment 1, which is termed as the “longitudinal segment,” the ego vehicle tries to adjust the longitudinal distance, position or relative velocity to make or find the suitable free space both in front of it and in the destination lane. In segment 2, termed as the “lateral segment,” the ego vehicle starts the lateral motion and enters into the destination lane.
+
+By analyzing different cases of human lane change data, the following behaviors for the segment 1 are extracted. do lane change LC, passive wait, active accelerate, active decelerate, active evasive
+
+if there is enough space in the destination lane, the vehicle can turn the steering wheel and do the lane change. If the relative speed of the approaching vehicles in the destination lane is relatively high, ego vehicle may prefer to wait (passive) until finding enough free space. In this case, it may even do deceleration (active) to reduce the time or traveled distance. The deceleration behavior may be useful in the case of time/distance constraint when ego vehicle has to change the lane to exit from the expressway. In the other case, when the relative speed of the neighboring vehicles in the destination lane is relatively low, ego vehicle may accelerate (active) to pass the neighboring vehicles for doing the lane change. If there is a sudden change in the behavior of the surrounding vehicles during the lane change (sudden acceleration, deceleration or lane change), ego vehicle might need evasive (active)
+
