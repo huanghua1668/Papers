@@ -1,0 +1,5 @@
+Integration with a car-following model is achieved by influencing car-following behavior for relaxation and synchronization, that is, following vehicles in adjacent lanes. 
+
+For most lane change models, it holds that gap acceptance either is a simple function of distance and speed difference or is based on a car-following model to determine resulting deceleration. The first class of gap-acceptance models fails to include car-following dynamics, whereas for the latter class it is assumed that drivers accept smaller gaps through a larger acceptable deceleration. However, in the real world, drivers largely will apply small decelerations and will accept smaller time headways for a while, as is shown empirically for merging traffic (10). This phenomenon is known as relaxation
+
+Another important aspect of lane changing is lane change preparation, sometimes referred to as the tactical stage (6), in which drivers may adapt their speed and align with a gap and in which another driver may create a gap. This lane change preparation is referred to as synchronization, as drivers synchronize with an adjacent lane. 
